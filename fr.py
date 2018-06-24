@@ -73,10 +73,12 @@ def playAndRecognitionOfFaces(videoFullPath, dirImageFaces):
             break
 
 def downloadFromYouTube(urlTube):
+    print("Downloading video: " + urlTube)
     yt = YouTube(urlTube)
     yt.streams.first().download()
     random_file_name = tempfile.NamedTemporaryFile(prefix="youtube-movie-", dir=".").name
     os.rename(yt.streams.first().default_filename, random_file_name)
+    print("Downloaded as: " + random_file_name)
     return random_file_name
 
 def main():

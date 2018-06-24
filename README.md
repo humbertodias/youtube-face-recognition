@@ -1,6 +1,6 @@
 # Face Recognition
 
-Simple python script for face recognition downloading videos directly from YouTube.
+Simple python script for face recognition, downloading videos directly from YouTube.
 
 # Install
 
@@ -19,7 +19,6 @@ Press q to exit
 # Output
 
 ![Demo](doc/demo.png)
-
 
 
 # References

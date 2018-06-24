@@ -1,5 +1,5 @@
+dlib
 face_recognition
-opencv-python
 pytube
-tempfile
-cv2
+backports.tempfile
+opencv-python

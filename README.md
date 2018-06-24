@@ -2,7 +2,23 @@
 
 Simple python script for face recognition, downloading videos directly from YouTube.
 
+# Requirements
+
+* Python
+* Pip
+
+
 # Install
+
+
+For MacOS
+
+```
+brew install cmake
+brew install boost
+brew install boost-python --with-python3
+```
+
 
 ```
 pip install -r requirements.txt

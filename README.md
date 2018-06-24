@@ -18,7 +18,7 @@ Press q to exit
 
 # Output
 
-[Demo](!doc/demo.png)
+![Demo](doc/demo.png)
 
 
 

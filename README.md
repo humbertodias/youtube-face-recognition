@@ -16,6 +16,13 @@ For MacOS
 brew install cmake boost boost-python --with-python3 --without-python
 ```
 
+For Linux
+
+```
+sudo apt install python3-testresources
+```
+
+
 ```
 pip3 install -r requirements.txt
 ```

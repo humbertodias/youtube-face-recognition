@@ -4,7 +4,7 @@ Simple python script for face recognition, downloading videos directly from YouT
 
 # Requirements
 
-* Python 2+
+* Python 3+
 * Pip 
 
 
@@ -17,13 +17,13 @@ brew install cmake boost boost-python --with-python3 --without-python
 ```
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 # Running
 
 ```
-python fr.py https://www.youtube.com/watch?v=lWvRf5ZbmZA faces/
+python3 fr.py https://www.youtube.com/watch?v=lWvRf5ZbmZA faces/
 ```
 
 # Output

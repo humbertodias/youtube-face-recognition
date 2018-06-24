@@ -13,9 +13,7 @@ Simple python script for face recognition, downloading videos directly from YouT
 For MacOS
 
 ```
-brew install cmake
-brew install boost
-brew install boost-python --with-python3
+brew install cmake boost boost-python --with-python3 --without-python
 ```
 
 ```
@@ -32,7 +30,9 @@ python fr.py https://www.youtube.com/watch?v=lWvRf5ZbmZA faces/
 
 ![Demo](doc/demo.png)
 
-Press q to exit
+Press q to exit.
+
+Tested on Ubuntu 18.04 and MacOS High Sierra
 
 # References
 
